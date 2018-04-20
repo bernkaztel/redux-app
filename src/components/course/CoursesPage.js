@@ -55,7 +55,7 @@ class CoursesPage extends Component {
 function   mapStateToProps(state, ownProps){
   return {
       coursesFromReducer: state.coursesReducer
-  }
+  } 
 }
 //Función para recibir acciones de la tienda. 
 //se crea el nombre de la acción (createCourse), el parámetro que recibe 
